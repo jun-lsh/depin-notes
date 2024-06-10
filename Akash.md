@@ -1,3 +1,5 @@
+# Akash
+
 ## Value Proposition
 
 Akash aims to "revolutionize cloud computing" by offering affordable cloud resources, calling themselves the "Airbnb for Datacenters". Essentially, it is a decentralized compute marketplace.
@@ -179,4 +181,4 @@ This even beats out providers like [Vultr](https://www.vultr.com/pricing/#cloud-
 
 ### What's the Catch?
 
-Well, with such cheap rates, there has to be a catch. Perhaps it's uptime, perhaps it's bandwidth, perhaps it's reliability and ease of use. 
+Well, with such cheap rates, there has to be a catch. Perhaps it's uptime, perhaps it's bandwidth, perhaps it's reliability and ease of use. It's relatively non-trivial to evaluate the service
