@@ -1,3 +1,5 @@
+# Akash
+
 ## Value Proposition
 
 Akash aims to "revolutionize cloud computing" by offering affordable cloud resources, calling themselves the "Airbnb for Datacenters". Essentially, it is a decentralized compute marketplace.
@@ -107,7 +109,7 @@ profiles:
           attributes:
             vendor:
               nvidia:
-	              - model: rtx4090
+		- model: rtx4090
         storage:
           - size: 100Gi
 
