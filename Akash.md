@@ -107,7 +107,7 @@ profiles:
           attributes:
             vendor:
               nvidia:
-	              - model: rtx4090
+		- model: rtx4090
         storage:
           - size: 100Gi
 
