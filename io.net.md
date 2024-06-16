@@ -142,19 +142,19 @@ The pricing of GPUs is a bit less ridiculous compared to Akash:
 
 Giving this a shot myself, I got a quote for $0.90/hr to rent out 4x RTX 3080s close to me (Singapore, Malaysia, Vietnam) with a "Medium Speed" connection. (Amusingly, some clusters can't be deployed due to a shortage of GPUs of a certain type)
 
-![[io_net_deployment.png]]
+![io_net_deployment.png](io_net_deployment.png)
 
 After deployment, I'm given links to a Jupyter notebook or a VS Code web instance. I'm paying for 400 MBps download and 300 MBps upload, but it's still fairly slow. It takes around 5 minutes for me to finally get a notebook up, and the VS Code instance remains inaccessible.
 
 Running `ray status` shows us our resources available:
 
-![[ray_status.png]]
+![ray_status.png](ray_status.png)
 
 You can't run your own ML/DL code like usual, you have to adapt it to properly use Ray such that it actually performs decentralized compute. This is a fair compromise, especially given that the target audience here should have enough technical know-how to do this setup.
 
 Unfortunately, even trying to run [sample code](https://docs.ray.io/en/latest/train/getting-started-transformers.html) from the Ray docs is an arduous task. The notebook is unreliable, either being really slow or having the kernel randomly die on me.
 
-![[kernel_restarting.png]]
+![kernel_restarting.png](kernel_restarting.png)
 
 ### BC8.ai
 
@@ -162,10 +162,13 @@ The easiest way to interact with a io.net cluster is through https://bc8.ai/, wh
 
 I don't have much to comment on this besides the fact that for now, you spend "credits" on the site to generate an image (you receive 10 free credits a day and start with a balance of 100 credits), and this system is implemented on [Aptos](https://explorer.aptoslabs.com/txn/984489804/balanceChange?network=mainnet) rather than Solana. These are also the [only inferences](https://explorer.io.net/explorer/inferences) shown on the explorer.
 
-
 ## Concluding Remarks
 
 io.net in its current state, for all intents and purposes, is largely a Web2 product. It lets you deploy projects on Ray clusters which are managed by AWS which you can pay for with a credit card, with a centralized "PoW" verification system for compute provider participants. 
+
+The product is awfully opaque, and although distributing proprietary software is perfectly fine, it stands against the ethos of transparency that crypto/Web3 is supposed to stand for. Being unable to audit the PoW or "POTL" systems definitely doesn't inspire confidence either, and there are no smart contracts to speak of that facilitate the processes of this network.
+
+Besides their own image generation instance, deploying on io.net is also a surprisingly frustrating experience, where the low prices seem to be complemented with unreliable and slow clusters.
 
 The only Web3 aspect thus far is the $IO token, where besides being the system for rewarding providers and stakers (of which staking has yet to be implemented), otherwise simply serves a speculative vessel that [will definitely not get dumped by its devs](https://x.com/shadid_io/status/1799766711291490522).
 
