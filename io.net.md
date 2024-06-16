@@ -166,7 +166,7 @@ I don't have much to comment on this besides the fact that for now, you spend "c
 
 io.net in its current state, for all intents and purposes, is largely a Web2 product. It lets you deploy projects on Ray clusters which are managed by AWS which you can pay for with a credit card, with a centralized "PoW" verification system for compute provider participants. 
 
-The product is awfully opaque, and although distributing proprietary software is perfectly fine, it stands against the ethos of transparency that crypto/Web3 is supposed to stand for. Being unable to audit the PoW or "POTL" systems definitely doesn't inspire confidence either, and there are no smart contracts to speak of that facilitate the processes of this network.
+The product is awfully opaque, and although distributing proprietary software is perfectly fine, it stands against the ethos of transparency that crypto/Web3 is supposed to stand for. Being unable to audit the PoW or "POTL" systems definitely doesn't inspire confidence either, and there are no smart contracts to speak of that facilitate the processes of this network. Hell, even GPU pricing isn't made transparent besides scant details on how it takes supply and demand and GPU specs into consideration.
 
 Besides their own image generation instance, deploying on io.net is also a surprisingly frustrating experience, where the low prices seem to be complemented with unreliable and slow clusters.
 
