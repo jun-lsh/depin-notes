@@ -191,7 +191,7 @@ This even beats out providers like [Vultr](https://www.vultr.com/pricing/#cloud-
 
 Well, with such cheap rates, there has to be a catch. Perhaps it's uptime, perhaps it's bandwidth, perhaps it's reliability and ease of use, perhaps it's security. Arguably, the best way to evaluate this service is by *actually using it* and testing for these metrics, and the only other proxy I can think of is to test out existing deployments.
 
-In my bid to find any actual deployments, I've realised that their [explorer](https://akashexplorer.com/akash) is pretty crappy and their  honestly serves as a better explorer. With this ["stats website"](https://stats.akash.network/), we can (supposedly) see all the deployments that have been performed by a tenant (if you can find their address), with information concerning the vCPU, RAM, GPU and storage requested as well as the status of the deployment or lease.
+With this ["stats website"](https://stats.akash.network/), we can (supposedly) see all the deployments that have been performed by a tenant (if you can find their address), with information concerning the vCPU, RAM, GPU and storage requested as well as the status of the deployment or lease.
 
 In order to find active deployments, it's an annoying process of [looking for successful bids](https://stats.akash.network/transactions/14B90C521C5AAE823697A1CC7E984E6658D35E8CC34C6A2A4356A4FC0497E50E) (in this case, one opened by our good friend europlots), finding the owner of the bid, then checking for their [active deployments](https://stats.akash.network/addresses/akash130xhrhruhmv65w3awpgzylqkhzj7km5jgfyez9/deployments) .
 
